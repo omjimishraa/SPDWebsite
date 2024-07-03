@@ -1,0 +1,741 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <title>Sreshthtam - IT Solutions</title>
+  <link rel="icon" type="image/x-icon" href="img/sreshthtam_logo_-icon.ico" />
+  <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+  <meta content="" name="keywords" />
+  <meta content="" name="description" />
+
+  <!-- Google Web Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Saira:wght@500;600;700&display=swap"
+    rel="stylesheet" />
+
+  <!-- Icon Font Stylesheet -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet" />
+
+  <!-- Libraries Stylesheet -->
+  <link href="lib/animate/animate.min.css" rel="stylesheet" />
+  <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet" />
+
+  <!-- Customized Bootstrap Stylesheet -->
+  <link href="css/bootstrap.min.css" rel="stylesheet" />
+
+  <!-- Template Stylesheet -->
+  <link href="css/style.css" rel="stylesheet" />
+</head>
+
+<body>
+  <!-- Spinner Start -->
+  <div id="spinner"
+    class="show position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+    <div class="spinner-grow text-primary" role="status"></div>
+  </div>
+  <!-- Spinner End -->
+
+  <!-- Topbar Start -->
+  <div class="container-fluid bg-dark py-2 d-none d-md-flex">
+    <div class="container">
+      <div class="d-flex justify-content-between topbar">
+        <div class="top-info">
+          <small class="me-3 text-white"><a href="#"><i class="fas fa-map-marker-alt me-2 text-secondary"></i></a>ARL
+            Tech Park, Gurgaon</small>
+          <small class="me-3 text-white"><a href="#"><i
+                class="fas fa-envelope me-2 text-secondary"></i></a>Email@Example.com</small>
+        </div>
+        <div id="note" class="text-secondary d-none d-xl-flex">
+          <small>Note : We help you to Grow your Business</small>
+        </div>
+        <div class="top-link">
+          <a href="" class="bg-light nav-fill btn btn-sm-square rounded-circle"><i
+              class="fab fa-facebook-f text-primary"></i></a>
+          <a href="" class="bg-light nav-fill btn btn-sm-square rounded-circle"><i
+              class="fab fa-twitter text-primary"></i></a>
+          <a href="" class="bg-light nav-fill btn btn-sm-square rounded-circle"><i
+              class="fab fa-instagram text-primary"></i></a>
+          <a href="" class="bg-light nav-fill btn btn-sm-square rounded-circle me-0"><i
+              class="fab fa-linkedin-in text-primary"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Topbar End -->
+
+  <!-- Navbar Start -->
+  <div class="container-fluid navbar-custom">
+    <div class="container">
+      <nav class="navbar navbar-dark navbar-expand-lg py-0">
+        <a href="index.html" class="navbar-brand">
+          <h1 class="text-white fw-bold d-block">
+            Sreshth<span class="text-secondary">tam</span>
+          </h1>
+        </a>
+        <button type="button" class="navbar-toggler text-primary me-0" data-bs-toggle="collapse"
+          data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false"
+          aria-label="Toggle navigation" style="border: 0px solid black">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse bg-transparent" id="navbarCollapse">
+          <div class="navbar-nav ms-auto mx-xl-auto p-0">
+            <a href="index.html" class="nav-item nav-link">Home</a>
+            <hr />
+            <div class="nav-item dropdown">
+              <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Services</a>
+              <div class="dropdown-menu rounded">
+                <a href="ms-dynamic-service.html" class="dropdown-item">Microsoft Solutions</a>
+                <a href="Website-development.html" class="dropdown-item">Web development</a>
+                <a href="app-development-service.html" class="dropdown-item">Mobile App Development</a>
+                <a href="cloud-service.html" class="dropdown-item">Cloud Apps</a>
+              </div>
+            </div>
+            <hr />
+            <a href="product.html" class="nav-item nav-link">Products</a>
+            <hr />
+            <a href="company.html" class="nav-item nav-link active">Company</a>
+            <hr />
+            <a href="contact.html" class="nav-item nav-link">Contact</a>
+            <hr />
+            <a href="about.html" class="nav-item nav-link">About</a>
+          </div>
+        </div>
+        <div class="d-none d-xl-flex flex-shirink-0">
+          <div id="phone-tada" class="d-flex align-items-center justify-content-center me-4">
+            <a href="" class="position-relative animated tada infinite">
+              <i class="fa fa-phone-alt text-white fa-2x"></i>
+              <div class="position-absolute" style="top: -7px; left: 20px">
+                <span><i class="fa fa-comment-dots text-secondary"></i></span>
+              </div>
+            </a>
+          </div>
+          <div class="d-flex flex-column pe-4 border-end">
+            <span class="text-white-50">Have any questions?</span>
+            <span class="text-secondary">Call: + : 6307804706 </span>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </div>
+
+  <!-- Include Bootstrap JS and jQuery -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-bLT0Qm9VnAYZDflyKcBaQ2ggJI5R1n+MlK8GxnS9zF0=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+    integrity="sha384-JC3mUA+2Zkz6Dmh2PiA6cwzAxiq8XzC5WEVCqPjktjFf5uJZB6VY7i1Y7aySZDK4"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+    crossorigin="anonymous"></script>
+
+  <!-- Navbar End -->
+
+  <!-- Page Header Start -->
+  <div class="container-fluid page-header-product py-5">
+    <div class="container text-center py-5">
+      <h1 class="display-2 text-white mb-4 animated slideInDown">
+        Wanna know about our company?
+      </h1>
+      <nav aria-label="breadcrumb animated slideInDown">
+        <ol class="breadcrumb justify-content-center mb-0">
+          <li class="breadcrumb-item"><a href="#">Home</a></li>
+          <li class="breadcrumb-item" aria-current="page">Company</li>
+        </ol>
+      </nav>
+    </div>
+  </div>
+  <!-- Page Header End -->
+
+  <!-- Fact Start -->
+  <div class="container-fluid bg-secondary py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-3 wow fadeIn" data-wow-delay=".1s">
+          <div class="d-flex counter">
+            <h1 class="me-3 text-primary fs-6">🔵</h1>
+            <h5 class="text-white mt-1 fs-6">
+              WELCOME TO SRESHTHTAM SOLUTIONS
+            </h5>
+          </div>
+        </div>
+        <div class="col-lg-3 wow fadeIn" data-wow-delay=".3s">
+          <div class="d-flex counter">
+            <h1 class="me-3 text-primary fs-6">🔵</h1>
+            <h5 class="text-white mt-1 fs-6">
+              YOUR SATISFACTION IS OUR PRIORITY
+            </h5>
+          </div>
+        </div>
+        <div class="col-lg-3 wow fadeIn" data-wow-delay=".5s">
+          <div class="d-flex counter">
+            <h1 class="me-3 text-primary fs-6">🔵</h1>
+            <h5 class="text-white mt-1 fs-6">WE THRIVE ON CREATIVITY</h5>
+          </div>
+        </div>
+        <div class="col-lg-3 wow fadeIn" data-wow-delay=".7s">
+          <div class="d-flex counter">
+            <h1 class="me-3 text-primary fs-6">🔵</h1>
+            <h5 class="text-white mt-1 fs-6">
+              WE BELIEVE IN THE POWER OF COLLABORATION
+            </h5>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Fact End -->
+
+  <!-- Product 1st section card start-->
+
+  <section class="section pt-5 pb-5" id="pricing-plans">
+    <div class="top"></div>
+    <div class="container">
+      <!-- ***** Section Title Start ***** -->
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="center-heading">
+            <h5 class="text-primary">Services</h5>
+          </div>
+        </div>
+        <div class="offset-lg-3 col-lg-6">
+          <div class="center-text">
+            <h1>Services Built Specifically For Your Business</h1>
+          </div>
+        </div>
+      </div>
+      <!-- ***** Section Title End ***** -->
+
+      <div class="row">
+        <!-- ***** Product Item Start ***** -->
+        <div class="col-lg-4 col-md-6">
+          <div class="pricing-item">
+            <div class="pricing-header">
+              <h3 class="pricing-title">HRMS</h3>
+            </div>
+            <div class="pricing-body">
+              <div class="price-wrapper">
+                <img src="img/hrms-company-1.webp" class="card-img-top" alt="Responsive image" />
+              </div>
+              <ul class="list">
+                <li class="active"><b>1.</b> Employee Data Management: Centralized platform for managing employee
+                  information, payroll, and benefits.</li>
+                <li class="active"><b>2.</b> Performance Evaluation: Tools for performance reviews, goal setting, and
+                  career development planning.</li>
+                <li class="active"><b>3.</b> Compliance and Reporting: Ensure HR compliance with labor laws and generate
+                  insightful reports for decision-making.</li>
+              </ul>
+              <br>
+              <br>
+            </div>
+
+          </div>
+        </div>
+        <!-- ***** Product Item End ***** -->
+
+        <!-- ***** Product Item Start ***** -->
+        <div class="col-lg-4 col-md-6">
+          <div class="pricing-item">
+            <div class="pricing-header">
+              <h3 class="pricing-title">Qlt management</h3>
+            </div>
+            <div class="pricing-body">
+              <div class="price-wrapper">
+                <img src="img/qualityms-company-2.webp" class="card-img-top" alt="Responsive image" />
+              </div>
+              <ul class="list">
+                <li class="active"><b>1.</b> Process Standardization: Establish and maintain standardized processes for
+                  consistent quality.</li>
+                <li class="active"><b>2.</b> Continuous Improvement: Implement methodologies like Six Sigma to drive
+                  ongoing quality enhancements.</li>
+                <li class="active"><b>3.</b> Audit and Compliance: Conduct audits and ensure compliance with quality
+                  standards and regulations.</li>
+              </ul>
+            </div>
+
+          </div>
+        </div>
+        <!-- ***** Product Item End ***** -->
+
+
+        <!-- ***** Product Item Start ***** -->
+        <div class="col-lg-4 col-md-6">
+          <div class="pricing-item">
+            <div class="pricing-header">
+              <h3 class="pricing-title">Plant Maintainance</h3>
+            </div>
+            <div class="pricing-body">
+              <div class="price-wrapper">
+                <img src="img/sap-plant-maintenance-company.webp" class="card-img-top" alt="Responsive image" />
+              </div>
+              <ul class="list">
+                <li class="active"><b>1.</b> Equipment Reliability: Ensure optimal performance and reliability of plant
+                  equipment.</li>
+                <li class="active"><b>2.</b> Preventive Maintenance: Implement scheduled maintenance to prevent
+                  breakdowns and prolong equipment life.</li>
+                <li class="active"><b>3.</b> Asset Management: Track and manage plant assets efficiently for improved
+                  operational efficiency.</li>
+              </ul>
+              <br>
+            </div>
+          </div>
+        </div>
+        <!-- ***** Product Item End ***** -->
+
+        <!-- ***** Product Item Start ***** -->
+        <div class="col-lg-4 col-md-6">
+          <div class="pricing-item">
+            <div class="pricing-header">
+              <h3 class="pricing-title">DMS</h3>
+            </div>
+            <div class="pricing-body">
+              <div class="price-wrapper">
+                <img src="img/dms-service-company.webp" class="card-img-top" alt="Responsive image" />
+              </div>
+              <ul class="list pt-0">
+                <li class="active"><b>1.</b> Document Organization: Efficiently organize and categorize documents for
+                  easy retrieval.</li>
+                <li class="active"><b>2.</b> Version Control: Ensure document versions are managed and tracked
+                  accurately.</li>
+                <li class="active"><b>3.</b> Security and Access Control: Implement robust security measures to protect
+                  sensitive documents.</li>
+              </ul>
+              <br>
+            </div>
+          </div>
+        </div>
+        <!-- ***** Product Item End ***** -->
+
+        <!-- ***** Product Item Start ***** -->
+        <div class="col-lg-4 col-md-6">
+          <div class="pricing-item">
+            <div class="pricing-header">
+              <h3 class="pricing-title">Payroll</h3>
+            </div>
+            <div class="pricing-body">
+              <div class="price-wrapper">
+                <img src="img/payroll-company.webp" class="card-img-top" alt="Responsive image" />
+              </div>
+              <ul class="list">
+                <li class="active"><b>1.</b> Payroll Processing: Accurate and timely processing of employee wages and
+                  salaries.</li>
+                <li class="active"><b>2.</b> Tax Compliance: Ensure compliance with tax regulations and timely
+                  submission of payroll taxes.</li>
+                <li class="active"><b>3.</b> Employee Benefits Management: Administer employee benefits, such as health
+                  insurance and retirement plans.</li>
+              </ul>
+              <br>
+              <br>
+            </div>
+          </div>
+        </div>
+        <!-- ***** Product Item End ***** -->
+
+        <!-- ***** Product Item Start ***** -->
+        <div class="col-lg-4 col-md-6">
+          <div class="pricing-item">
+            <div class="pricing-header">
+              <h3 class="pricing-title">CRM</h3>
+            </div>
+            <div class="pricing-body">
+              <div class="price-wrapper">
+                <img src="img/Microsoft Dynamics CRM1.webp" class="card-img-top" alt="Responsive image" />
+              </div>
+              <ul class="list">
+
+                <li class="active"><b>1.</b> Sales Management: Tools to manage leads, opportunities, and sales pipelines
+                  effectively.</li>
+                <li class="active"><b>2.</b> Customer Service: Enhance customer satisfaction with efficient service and
+                  support workflows.</li>
+                <li class="active"><b>3.</b> Marketing Automation: Automate marketing campaigns and track performance
+                  with analytics. And more...</li>
+              </ul>
+              <br>
+            </div>
+          </div>
+        </div>
+        <!-- ***** Product Item End ***** -->
+      </div>
+    </div>
+  </section>
+  <!-- Product 1st section card end-->
+
+  <!-- client-logo Start -->
+  <div class="container-fluid services py-5 mb-5">
+    <div class="container">
+      <div class="text-center mx-auto pb-2 wow fadeIn" data-wow-delay=".3s" style="max-width: 600px">
+        <h1>Our clients/ Partners</h1>
+      </div>
+      <div class="slider py-1 mb-1">
+        <div class="slide-track">
+          <div class="slide">
+            <img class="img-s" src="https://i.pinimg.com/originals/68/44/e3/6844e3d8b9d5e68b08b498e1e4258bf6.png"
+              alt="">
+          </div>
+          <div class="slide">
+            <img class="img-s"
+              src="https://thumbs.dreamstime.com/b/logo-icon-vector-logos-icons-set-social-media-flat-banner-vectors-svg-eps-jpg-jpeg-paper-texture-glossy-emblem-wallpaper-210441861.jpg"
+              alt="">
+          </div>
+          <div class="slide">
+            <img class="img-s" src="https://karthavya.com/wp-content/uploads/2019/06/indianews-logo.jpg" alt="">
+          </div>
+          <div class="slide">
+            <img class="img-s" src="https://m.media-amazon.com/images/I/71VYPInfovL.png" alt="">
+          </div>
+          <div class="slide">
+            <img class="img-s"
+              src="https://prod-admin-images.s3.ap-south-1.amazonaws.com/QuCz8cmLZYbOsIAexD/other/image-TeQ-5L2t5.png"
+              alt="">
+          </div>
+          <div class="slide">
+            <img class="img-s"
+              src="https://e7.pngegg.com/pngimages/110/820/png-clipart-logo-jabong-com-brand-boxing-day-sale-text-orange.png"
+              alt="">
+          </div>
+          <div class="slide">
+            <img class="img-s" src="https://cryoviva.com/wp-content/uploads/2020/08/Cryoviva@3x.png" alt="">
+          </div>
+          <div class="slide">
+            <img class="img-s"
+              src="https://3.imimg.com/data3/XY/ND/MY-4974125/avi-oil-india-private-limited-logo-120x120.jpg" alt="">
+          </div>
+          <div class="slide">
+            <img class="img-s"
+              src="https://cdn.freebiesupply.com/logos/large/2x/general-electric-black-logo-png-transparent.png" alt="">
+          </div>
+          <div class="slide">
+            <img class="img-s" src="https://cdn.freebiesupply.com/logos/large/2x/nfl-logo-png-transparent.png" alt="">
+          </div>
+          <div class="slide">
+            <img class="img-s"
+              src="https://cdn.freebiesupply.com/logos/large/2x/mercedes-benz-6-logo-png-transparent.png" alt="">
+          </div>
+          <div class="slide">
+            <img class="img-s" src="https://cdn.freebiesupply.com/logos/large/2x/hogwarts-logo-png-transparent.png"
+              alt="">
+          </div>
+          <div class="slide">
+            <img class="img-s" src="https://cdn.freebiesupply.com/logos/thumbs/2x/mcdonalds-black-logo.png" alt="">
+          </div>
+          <div class="slide">
+            <img class="img-s" src="https://cdn.freebiesupply.com/images/large/2x/starbucks-logo-black-and-white.png"
+              alt="">
+          </div>
+          <div class="slide">
+            <img class="img-s"
+              src="https://cdn.freebiesupply.com/logos/large/2x/general-electric-black-logo-png-transparent.png" alt="">
+          </div>
+          <div class="slide">
+            <img class="img-s" src="https://cdn.freebiesupply.com/logos/large/2x/nfl-logo-png-transparent.png" alt="">
+          </div>
+          <div class="slide">
+            <img class="img-s"
+              src="https://cdn.freebiesupply.com/logos/large/2x/mercedes-benz-6-logo-png-transparent.png" alt="">
+          </div>
+          <div class="slide">
+            <img class="img-s" src="https://cdn.freebiesupply.com/logos/large/2x/hogwarts-logo-png-transparent.png"
+              alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- client-logo End -->
+
+  <!-- Team Start -->
+  <div class="container-fluid  mb-5 team">
+    <div class="container">
+      <div class="text-center mx-auto pb-5 wow fadeIn" data-wow-delay=".3s" style="max-width: 600px">
+        <h5 class="text-primary">Our Team</h5>
+        <h1>Meet our expert Team</h1>
+      </div>
+      <div class="owl-carousel team-carousel wow fadeIn" data-wow-delay=".5s">
+        <div class="rounded team-item">
+          <div class="team-content">
+            <div class="team-img-icon">
+              <div class="team-img rounded-circle">
+                <img src="img/team-1.webp" class="img-fluid w-100 rounded-circle" alt="" />
+              </div>
+              <div class="team-name text-center py-3">
+                <h4 class="">Full Name</h4>
+                <p class="m-0">Designation</p>
+              </div>
+              <div class="team-icon d-flex justify-content-center pb-4">
+                <a class="btn btn-square btn-secondary text-white rounded-circle m-1" href=""><i
+                    class="fab fa-facebook-f"></i></a>
+                <a class="btn btn-square btn-secondary text-white rounded-circle m-1" href=""><i
+                    class="fab fa-twitter"></i></a>
+                <a class="btn btn-square btn-secondary text-white rounded-circle m-1" href=""><i
+                    class="fab fa-instagram"></i></a>
+                <a class="btn btn-square btn-secondary text-white rounded-circle m-1" href=""><i
+                    class="fab fa-linkedin-in"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="rounded team-item">
+          <div class="team-content">
+            <div class="team-img-icon">
+              <div class="team-img rounded-circle">
+                <img src="img/team-2.webp" class="img-fluid w-100 rounded-circle" alt="" />
+              </div>
+              <div class="team-name text-center py-3">
+                <h4 class="">Full Name</h4>
+                <p class="m-0">Designation</p>
+              </div>
+              <div class="team-icon d-flex justify-content-center pb-4">
+                <a class="btn btn-square btn-secondary text-white rounded-circle m-1" href=""><i
+                    class="fab fa-facebook-f"></i></a>
+                <a class="btn btn-square btn-secondary text-white rounded-circle m-1" href=""><i
+                    class="fab fa-twitter"></i></a>
+                <a class="btn btn-square btn-secondary text-white rounded-circle m-1" href=""><i
+                    class="fab fa-instagram"></i></a>
+                <a class="btn btn-square btn-secondary text-white rounded-circle m-1" href=""><i
+                    class="fab fa-linkedin-in"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="rounded team-item">
+          <div class="team-content">
+            <div class="team-img-icon">
+              <div class="team-img rounded-circle">
+                <img src="img/team-3.webp" class="img-fluid w-100 rounded-circle" alt="" />
+              </div>
+              <div class="team-name text-center py-3">
+                <h4 class="">Full Name</h4>
+                <p class="m-0">Designation</p>
+              </div>
+              <div class="team-icon d-flex justify-content-center pb-4">
+                <a class="btn btn-square btn-secondary text-white rounded-circle m-1" href=""><i
+                    class="fab fa-facebook-f"></i></a>
+                <a class="btn btn-square btn-secondary text-white rounded-circle m-1" href=""><i
+                    class="fab fa-twitter"></i></a>
+                <a class="btn btn-square btn-secondary text-white rounded-circle m-1" href=""><i
+                    class="fab fa-instagram"></i></a>
+                <a class="btn btn-square btn-secondary text-white rounded-circle m-1" href=""><i
+                    class="fab fa-linkedin-in"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="rounded team-item">
+          <div class="team-content">
+            <div class="team-img-icon">
+              <div class="team-img rounded-circle">
+                <img src="img/team-4.webp" class="img-fluid w-100 rounded-circle" alt="" />
+              </div>
+              <div class="team-name text-center py-3">
+                <h4 class="">Full Name</h4>
+                <p class="m-0">Designation</p>
+              </div>
+              <div class="team-icon d-flex justify-content-center pb-4">
+                <a class="btn btn-square btn-secondary text-white rounded-circle m-1" href=""><i
+                    class="fab fa-facebook-f"></i></a>
+                <a class="btn btn-square btn-secondary text-white rounded-circle m-1" href=""><i
+                    class="fab fa-twitter"></i></a>
+                <a class="btn btn-square btn-secondary text-white rounded-circle m-1" href=""><i
+                    class="fab fa-instagram"></i></a>
+                <a class="btn btn-square btn-secondary text-white rounded-circle m-1" href=""><i
+                    class="fab fa-linkedin-in"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Team End -->
+
+  <!-- Fact Start -->
+  <div class="container-fluid bg-secondary py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-3 wow fadeIn" data-wow-delay=".1s">
+          <div class="d-flex counter">
+            <h1 class="me-3 text-primary counter-value">99</h1>
+            <h5 class="text-white mt-1">Success in getting happy customer</h5>
+          </div>
+        </div>
+        <div class="col-lg-3 wow fadeIn" data-wow-delay=".3s">
+          <div class="d-flex counter">
+            <h1 class="me-3 text-primary counter-value">25</h1>
+            <h5 class="text-white mt-1">Thousands of successful business</h5>
+          </div>
+        </div>
+        <div class="col-lg-3 wow fadeIn" data-wow-delay=".5s">
+          <div class="d-flex counter">
+            <h1 class="me-3 text-primary counter-value">120</h1>
+            <h5 class="text-white mt-1">
+              Total clients who love Sreshththam
+            </h5>
+          </div>
+        </div>
+        <div class="col-lg-3 wow fadeIn" data-wow-delay=".7s">
+          <div class="d-flex counter">
+            <h1 class="me-3 text-primary counter-value">5</h1>
+            <h5 class="text-white mt-1">
+              Stars reviews given by satisfied clients
+            </h5>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Fact End -->
+
+  <!-- Contact Start -->
+  <div class="container-fluid wow fadeIn" data-wow-delay=".3s">
+    <div class="container pt-5 pb-4">
+      <div class="text-center mx-auto pb-5 wow fadeIn" data-wow-delay=".3s" style="max-width: 600px">
+        <h5 class="text-primary">Quick Enquiry</h5>
+        <h1>Contact us</h1>
+      </div>
+      <div class="row">
+        <div class="col-sm-12 col-md-4">
+          <div class="card border-4">
+            <div class="card-body">
+              
+              <div class="d-xl-flex flex-shirink-0">
+                
+                  <img src="img/sreshthtam(logo).jpeg" class="img-fluid w-25 mt-5">
+               
+                <div class="align-items-center justify-content-center ms-5 mt-5" style="margin-left: -4%;">
+
+                  <h5 class="card-title">ARL Tech Park</h5>
+              <p class="card-text">Gurgaon</p>
+                  <span>Working Hours</span>
+                  <span class="text-secondary card-title">Mon to Sat : 8am-9pm</span>
+                  <br><br>
+                  <a href="contact.html" class="btn btn-primary">Contact US</a>
+                </div>
+              </div>
+              <br>
+              
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-8">
+          <div class="card border-4">
+            <div class="card-body">
+              <iframe class="rounded w-100 h-100"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3510.526046116851!2d76.90055467456231!3d28.3731753958128!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d3e65a4d09023%3A0x3e216639534c3604!2sAnant%20Raj%20Tech%20Park!5e0!3m2!1sen!2sbd!4v1719476692809!5m2!1sen!2sbd"
+                style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+  </div>
+  <!-- Contact End -->
+
+  <!-- Footer Start -->
+  <div class="container-fluid footer bg-dark wow fadeIn" data-wow-delay=".3s">
+    <div class="container pt-5 pb-4">
+      <div class="row g-5">
+        <div class="col-lg-3 col-md-6">
+          <a href="index.html">
+            <h1 class="text-white fw-bold d-block">
+              Sreshth<span class="text-secondary">tam</span>
+            </h1>
+          </a>
+          <p class="mt-4 text-light">
+            Our Mission is to achieve excellence in improvement in
+            technology,serving customers through continuous products, quality,
+            delivery, services & support.
+          </p>
+          <div class="d-flex hightech-link">
+            <a href="" class="btn-light nav-fill btn btn-square rounded-circle me-2"><i
+                class="fab fa-facebook-f text-primary"></i></a>
+            <a href="" class="btn-light nav-fill btn btn-square rounded-circle me-2"><i
+                class="fab fa-twitter text-primary"></i></a>
+            <a href="" class="btn-light nav-fill btn btn-square rounded-circle me-2"><i
+                class="fab fa-instagram text-primary"></i></a>
+            <a href="" class="btn-light nav-fill btn btn-square rounded-circle me-0"><i
+                class="fab fa-linkedin-in text-primary"></i></a>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <a href="#" class="h3 text-secondary">Short Link</a>
+          <div class="mt-4 d-flex flex-column short-link">
+            <a href="about.html" class="mb-2 text-white"><i class="fas fa-angle-right text-secondary me-2"></i>About
+              us</a>
+            <a href="contact.html" class="mb-2 text-white"><i class="fas fa-angle-right text-secondary me-2"></i>Contact
+              us</a>
+            <a href="company.html" class="mb-2 text-white"><i class="fas fa-angle-right text-secondary me-2"></i>Our
+              Company</a>
+            <a href="product.html" class="mb-2 text-white"><i class="fas fa-angle-right text-secondary me-2"></i>Our
+              Products</a>
+            <a href="" class="mb-2 text-white"><i class="fas fa-angle-right text-secondary me-2"></i>Latest
+              Blog</a>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <a href="#" class="h3 text-secondary">Help Link</a>
+          <div class="mt-4 d-flex flex-column help-link">
+            <a href="" class="mb-2 text-white"><i class="fas fa-angle-right text-secondary me-2"></i>Terms Of
+              use</a>
+            <a href="" class="mb-2 text-white"><i class="fas fa-angle-right text-secondary me-2"></i>Privacy
+              Policy</a>
+            <a href="" class="mb-2 text-white"><i class="fas fa-angle-right text-secondary me-2"></i>Helps</a>
+            <a href="" class="mb-2 text-white"><i class="fas fa-angle-right text-secondary me-2"></i>FQAs</a>
+            <a href="contact.html" class="mb-2 text-white"><i
+                class="fas fa-angle-right text-secondary me-2"></i>Contact</a>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <a href="#" class="h3 text-secondary">Contact Us</a>
+          <div class="text-white mt-4 d-flex flex-column contact-link">
+            <a href="#" class="pb-3 text-light border-bottom border-primary"><i
+                class="fas fa-map-marker-alt text-secondary me-2"></i> ARL
+              Tech Park, Manesar Gurgaon</a>
+            <a href="#" class="py-3 text-light border-bottom border-primary"><i
+                class="fas fa-phone-alt text-secondary me-2"></i>
+              6307804706</a>
+            <a href="#" class="py-3 text-light border-bottom border-primary"><i
+                class="fas fa-envelope text-secondary me-2"></i>
+              info@exmple.con</a>
+          </div>
+        </div>
+      </div>
+      <hr class="text-light mt-5 mb-4" />
+      <div class="row">
+        <div class="col-md-6 text-center text-md-start">
+          <span class="text-light"><a href="#" class="text-secondary"><i
+                class="fas fa-copyright text-secondary me-2"></i>Sreshththam</a>, All right reserved.</span>
+        </div>
+        <div class="col-md-6 text-center text-md-end">
+          <span class="text-light">Designed By
+            <a href="https://cogenteservices.com" class="text-secondary">Cogent</a></span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Footer End -->
+
+  <!-- Back to Top -->
+  <a href="#" class="btn btn-secondary btn-square rounded-circle back-to-top"><i
+      class="fa fa-arrow-up text-white"></i></a>
+
+  <!-- JavaScript Libraries -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="lib/wow/wow.min.js"></script>
+  <script src="lib/easing/easing.min.js"></script>
+  <script src="lib/waypoints/waypoints.min.js"></script>
+  <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+  <!-- Template Javascript -->
+  <script src="js/main.js" async></script>
+</body>
+
+</html>
