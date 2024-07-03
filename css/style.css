@@ -1577,6 +1577,18 @@ ul {
   margin-bottom: 20px;
 }
 
+.contact_us_footer img{
+  width: 15%;
+  height: 15%;
+}
+.contact_us_footer div{
+ margin-left: 1rem !important ;
+ margin-top: 0rem !important;
+}
+.contact_us_c_body{
+  overflow: auto;
+}
 /*** Contact-stylewithmap-start ***/
+
 /*** Footer End ***/
 
