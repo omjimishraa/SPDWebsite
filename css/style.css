@@ -87,13 +87,17 @@
 #note small {
   position: relative;
   display: inline-block;
-  animation: mymove 5s infinite;
+  animation: mymove 10s infinite;
   animation-timing-function: all;
 }
 
 @keyframes mymove {
   from {
     left: -100%;
+  }
+  
+  75% {
+    left: 20%; 
   }
 
   to {
@@ -204,6 +208,20 @@ hr {
   vertical-align: middle;
   margin-left: 8px;
 }
+
+.spd_logo_header{
+  height: 45px;
+  width: 45px;
+}
+
+.navbar-brand{
+  display: flex;
+  justify-content: space-around;
+}
+.navbar-brand h1{
+  margin:0 0 0 8px !important;
+}
+
 /*** Navbar End ***/
 
 /*** Carousel Start ***/
@@ -219,7 +237,7 @@ hr {
   position: absolute;
   top: 0;
   left: 0;
-  background: rgba(0, 0, 0, 0.6);
+  background: rgba(0, 0, 0, 0.61);
 }
 
 .carousel-caption {
@@ -353,8 +371,18 @@ hr {
   }
 }
 
+@media (max-width: 650px) {
+  .carousel-item .carousel-content{
+    margin-top:60px;
+  }
+}
+
 /**page-header**/
 /**page-header-main-index**/
+.about_sec p{
+  text-align: justify;
+  word-spacing: -2px;
+}
 .page-header {
   background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
     url(../img/carousel-1.webp) center center no-repeat;
@@ -543,9 +571,12 @@ hr {
     border-color: transparent;
   }
 }
+.bg_light{
+  background-color: #f5f6f7e0;
+}
 
 .services .services-item {
-  box-shadow: 0 0 60px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0 10px rgb(0 0 0 / 30%);
   width: 100%;
   height: 100%;
   border-radius: 10px;
@@ -570,9 +601,17 @@ hr {
   bottom: auto;
   border-radius: 10px 10px 10px 10px;
 }
+.services-content-icon p{
+  text-align: justify;
+  word-spacing: -2.3px
+}
+
+.services-item:hover {
+  cursor: pointer;
+}
 
 .services-item:hover .services-content::after {
-  height: 100%;
+  height: 0%;
   opacity: 1;
   transition: 0.5s;
 }
@@ -591,8 +630,11 @@ hr {
   color: var(--bs-secondary) !important;
 }
 
-.services-item:hover .services-content-icon p {
+/* .services-item:hover .services-content-icon h4 {
   color: var(--bs-white);
+} */
+.services-item:hover .services-content-icon p {
+  /* color: var(--bs-white); */
 }
 
 .clients {
@@ -669,11 +711,23 @@ hr {
   opacity: 0;
 }
 
+
+
+
 /*** Project-field End ***/
 
 /*** Blog Start ***/
+.blog-item .blog_img_wapper{
+  height: 200px !important;
+  overflow: hidden;
+}
+
 .blog-item .blog-btn {
   z-index: 2;
+}
+.blog-content p{
+text-align: justify;
+word-spacing: -2.1px;
 }
 
 .blog-btn .blog-btn-icon {
@@ -808,6 +862,10 @@ hr {
 .testimonial-item {
   background: #e3f0eb;
 }
+.testimonial-item img{
+  height: 110px;
+  width: 110px !important;
+}
 
 .testimonial-carousel .owl-dots {
   margin-top: 15px;
@@ -871,6 +929,9 @@ hr {
   background: #26d48c;
 }
 
+.contact_us_sec .border-2{
+  border-color: #262a6a;
+}
 /*** Contact End ***/
 
 /*** Timeline-in-web-dev-html-start ***/
@@ -1587,6 +1648,9 @@ ul {
 }
 .contact_us_c_body{
   overflow: auto;
+}
+headingColor{
+  color: #262a6a !important;
 }
 /*** Contact-stylewithmap-start ***/
 

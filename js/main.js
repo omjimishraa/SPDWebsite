@@ -150,3 +150,31 @@
 
 })(jQuery);
 
+
+// Js for Mobile View
+const event = new MouseEvent('mouseover', {
+  bubbles: true,
+  cancelable: true,
+  view: window
+});
+function checkScreenSize() {
+  const element = document.querySelectorAll('.project-item'); // Replace with your element selector
+  if (window.innerWidth < 764) {
+    element.forEach(ele => {
+      // ele.classList.add('project-item:hover'); // Replace with the class you want to add
+      ele.dispatchEvent(event);
+    });
+      
+  } else {
+    element.forEach(ele => {
+      ele.classList.remove('project-item:hover'); // Replace with the class you want to add
+    });
+  }
+}
+
+
+window.addEventListener('resize', checkScreenSize);
+
+$(document).ready(()=>{
+  checkScreenSize();
+})
