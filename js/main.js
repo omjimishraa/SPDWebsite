@@ -178,3 +178,4 @@ window.addEventListener('resize', checkScreenSize);
 $(document).ready(()=>{
   checkScreenSize();
 })
+ 
