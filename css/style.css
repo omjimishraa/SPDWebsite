@@ -141,9 +141,13 @@ hr {
   outline: none;
 }
 
-.navbar .navbar-nav .nav-link:hover,
+
 .navbar .navbar-nav .nav-link.active {
-  color: var(--bs-secondary) !important;
+  color:#fff;
+}
+.navbar .navbar-nav .nav-link:hover{
+  color:  var(--bs-secondary) !important;
+  
 }
 
 .navbar .dropdown-toggle::after {
@@ -558,7 +562,7 @@ hr {
   }
 
   to {
-    width: 78%;
+    width: 52%;
   }
 }
 
@@ -571,6 +575,90 @@ hr {
     border-color: transparent;
   }
 }
+
+.typewriting_1 {
+  white-space: nowrap;
+  overflow: hidden;
+  animation: typewriter_1 5s steps(30) infinite alternate,
+    blink 900ms steps(30) infinite normal;
+  border-right: 5px solid black;
+}
+
+@keyframes typewriter_1 {
+  from {
+    width: 0%;
+  }
+
+  to {
+    width: 60%;
+  }
+}
+
+@keyframes blink {
+  from {
+    border-color: black;
+  }
+
+  to {
+    border-color: transparent;
+  }
+}
+.typewriting_2 {
+  white-space: nowrap;
+  overflow: hidden;
+  animation: typewriter_2 5s steps(30) infinite alternate,
+    blink 900ms steps(30) infinite normal;
+  border-right: 5px solid black;
+}
+
+@keyframes typewriter_2 {
+  from {
+    width: 0%;
+  }
+
+  to {
+    width: 64%;
+  }
+}
+
+@keyframes blink {
+  from {
+    border-color: black;
+  }
+
+  to {
+    border-color: transparent;
+  }
+}
+.typewriting_3 {
+  white-space: nowrap;
+  overflow: hidden;
+  animation: typewriter_3 5s steps(30) infinite alternate,
+    blink 900ms steps(30) infinite normal;
+  border-right: 5px solid black;
+}
+
+@keyframes typewriter_3 {
+  from {
+    width: 0%;
+  }
+
+  to {
+    width: 48%;
+  }
+}
+
+@keyframes blink {
+  from {
+    border-color: black;
+  }
+
+  to {
+    border-color: transparent;
+  }
+}
+
+
 .bg_light{
   background-color: #f5f6f7e0;
 }
@@ -863,8 +951,10 @@ word-spacing: -2.1px;
   background: #e3f0eb;
 }
 .testimonial-item img{
-  height: 110px;
-  width: 110px !important;
+    width: 100px;
+    height: 100px;
+    /* animation: scroll 60s linear infinite; */
+  
 }
 
 .testimonial-carousel .owl-dots {
