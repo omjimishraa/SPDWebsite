@@ -356,34 +356,82 @@
   <!-- Product 1st section card end-->
 
   <!-- Services Start -->
-  <!-- <div class="container-fluid services py-5 mb-5">
+  <div class="container-fluid services py-5 mb-5">
     <div class="container">
-      <div class="text-center mx-auto pb-5 wow fadeIn" data-wow-delay=".3s" style="max-width: 600px">
-        <h5 class="text-primary">Skill</h5>
-        <h1>Domain & Experience snapshot</h1>
-      </div>
+      
       <div class="row g-5 services-inner">
-        <div class="col-md-6 col-lg-6 wow fadeIn" data-wow-delay=".3s">
-          <div class="services-item bg-light">
-            <div class="p-4 text-center services-content">
-              <div class="services-content-icon">
-                <img src="img/aboutusskill.webp" class="img-fluid" />
-              </div>
-            </div>
+        <div class="col-md-12 col-lg-6 wow fadeIn" data-wow-delay=".3s">
+          <div class=" mx-auto pb-5 wow fadeIn" data-wow-delay=".3s" style="max-width: 600px">
+            <h5 class="text-primary  ">Skill</h5>
+            <h1>Domain & Experience </h1>
+            <p>Omnichannel Retail: Manage sales across multiple channels seamlessly. Inventory 
+              Management: Optimize stock levels and streamline supply chain operations. Customer Insights: 
+              Gain deep insights into customer behavior and preferences.
+              Omnichannel Retail: Manage sales across multiple channels seamlessly. Inventory 
+              Management: Optimize stock levels and streamline supply chain operations. Customer Insights: 
+              Gain deep insights into customer behavior and preferences.Omnichannel Retail: Manage sales across multiple channels seamlessly. Inventory 
+              Management: Optimize stock levels and streamline supply chain operations. Customer Insights: 
+              Gain deep insights into customer behavior and preferences</p>
           </div>
+         
         </div>
-        <div class="col-md-6 col-lg-6 wow fadeIn" data-wow-delay=".5s">
-          <div class="services-item bg-light">
-            <div class="p-4 text-center services-content">
-              <div class="services-content-icon">
-                <img src="img/aboutusskill2.webp" class="img-fluid" />
+        <div class="col-md-12 col-lg-6 wow fadeIn" data-wow-delay=".5s">
+          <div class="services-item">
+            <div class="text-center">
+              <!-- <h5 class=" text-primary ">Domain </h5> -->
+              <div class="circle_wrapper ">
+                <svg  width="360" height="360">
+                    <!-- Background Circles -->
+                    <circle class="bg-circle" cx="200" cy="200" r="50" stroke-width="13"></circle>
+                    <circle class="bg-circle" cx="200" cy="200" r="70" stroke-width="13"></circle>
+                    <circle class="bg-circle" cx="200" cy="200" r="90" stroke-width="13"></circle>
+                    <circle class="bg-circle" cx="200" cy="200" r="110" stroke-width="13"></circle>
+                    <circle class="bg-circle" cx="200" cy="200" r="130" stroke-width="13"></circle>
+               
+                    <!-- Progress Circles -->
+                    <circle class="progress1 cricle_stroke" cx="200" cy="200" r="50" stroke-width="13"></circle>
+                    <circle class="progress2 cricle_stroke" cx="200" cy="200" r="70" stroke-width="13"></circle>
+                    <circle class="progress3 cricle_stroke" cx="200" cy="200" r="90" stroke-width="13"></circle>
+                    <circle class="progress4 cricle_stroke" cx="200" cy="200" r="110" stroke-width="13"></circle>
+                    <circle class="progress5 cricle_stroke" cx="200" cy="200" r="130" stroke-width="13"></circle>
+                </svg>
+               
+               
+                <div class="legend ">
+                    <div  class=""> <span class=" darkpurple"></span>Finance  </div>
+                    <div  class=""> <span class=" purple"></span>Retail   </div>
+                    <div  class=""> <span class=" blue"></span>Manufacturing  </div>
+                    <div  class=""> <span class=" yellow"></span>Distribution  </div>
+                    <div  class=""> <span class=" lightyellow"></span>Others  </div>
+                   
+                </div>
               </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-  </div> -->
+  </div>
+ 
+  <!-- Services End -->
+
+  <script>
+    function animateProgress(circle, percentage) {
+        const circumference = 2 * Math.PI * circle.r.baseVal.value;
+        const offset = circumference - (percentage / 100) * circumference;
+        circle.style.strokeDasharray = circumference;
+        circle.style.strokeDashoffset = offset;
+    }
+
+    // Simulating progress animation
+    setTimeout(() => {
+        animateProgress(document.querySelector('.progress1'), 79);
+        animateProgress(document.querySelector('.progress2'), 80);
+        animateProgress(document.querySelector('.progress3'), 91);
+        animateProgress(document.querySelector('.progress4'), 84);
+        animateProgress(document.querySelector('.progress5'), 95);
+    }, 500);
+</script>
   <!-- Services End -->
 
   <!-- Project Start -->
